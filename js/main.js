@@ -1,4 +1,8 @@
+// select element
 const nav = document.querySelector('.navigation');
+
+// add event
+
 
 window.onscroll = function() {
     let top = window.scrollY;
@@ -8,4 +12,9 @@ window.onscroll = function() {
         nav.classList.remove('navScrolled');
     }
 };
+
+
+
+
+
 
