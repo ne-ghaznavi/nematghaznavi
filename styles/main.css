@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #F9F9F9;
     font-family: vazir;
@@ -177,6 +181,46 @@ body{
     transform: scale(1.05);
     color: #007bff;
 }
+/* end hero section */
+
+/* start skill section */
+.skill{
+    display: flex;
+}
+
+.skill img{
+    width: 40%;
+    padding: 20px;
+}
+
+.list_skill{
+    width: 100%;
+    margin: 40px;
+    color: #293651;
+}
+
+.skill_item{
+    margin-top: 25px;
+}
+
+.skill_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill_bar{
+    background-color:#646f87;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.skill_bar .progress_line{
+    background-color: #007bff;
+    border-radius: 15px 0 0 15px;
+}
+/* end skill section */
 
 /* keyframes */
 
