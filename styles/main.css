@@ -188,6 +188,7 @@ body{
 .skill{
     display: flex;
     background-color: #f1f1f1;
+    padding-top: 75px;
 }
 
 .skill img{
@@ -326,6 +327,60 @@ body{
 }
 /* end protfolio section */
 
+/* footer section */
+.footer{
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.footer h2{
+    letter-spacing: 2px;
+}
+
+.footer h2 span{
+    color: crimson;
+}
+
+.footer ul{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.footer ul li{
+    background-color: #F9F9F9;
+    font-size: 20px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer li a{
+    color: gainsboro;
+}
+
+.footer ul li a:hover{
+    color: #007bff;
+}
+
+.footer h1{
+    margin: 25px;
+}
+
+.footer h3 span{
+    color: crimson;
+    border-bottom: 1px solid #F9F9F9;
+}
+/* end footer section */
 /* keyframes */
 
 @keyframes loader {
@@ -347,8 +402,4 @@ body{
         opacity: 0;
         visibility: hidden;
     }
-}
-
-@keyframes bio {
-    0%
 }
