@@ -253,47 +253,57 @@ body{
     display: inline-block;
     text-align: center;
     color: #646f87;
-    box-shadow: 0 0 5px 1px #F9F9F9;
-    border-radius: 5px;
+    box-shadow: 0 0 20px #636161;
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
     z-index: 0;
 }
 
 .item1{
-    background-image: url(/images/p1.jpg);
+    background-image: url(/images/template2.png);
+    background-size: cover;
     height: 100%;
     align-items: center;
 }
 
 .item2{
-    background-image: url(/images/p3.jpg);
+    background-image: url(/images/template3.png);
     height: 100%;
     align-items: center;
+    background-size: cover;
+
 }
 
 .item3{
-    background-image: url(/images/p4.jpg);
+    background-image: url(/images/blog.png);
     height: 100%;
     align-items: center;
+    background-size: cover;
+
 }
 
 .item4{
-    background-image: url(/images/p8.jpg);
+    background-image: url(/images/p.jpg);
     height: 100%;
     align-items: center;
+    background-size: cover;
+
 }
 
 .item5{
-    background-image: url(/images/p1.jpg);
+    background-image: url(/images/p.jpg);
     height: 100%;
     align-items: center;
+    background-size: cover;
+
 }
 
 .item6{
-    background-image: url(/images/p3.jpg);
+    background-image: url(/images/p.jpg);
     height: 100%;
     align-items: center;
+    background-size: cover;
 }
 
 .description {
