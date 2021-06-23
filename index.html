@@ -7,10 +7,15 @@
     <title>Nemat Ghaznavi</title>
     <!-- add favicon -->
     <link rel="shortcut icon"href="images/favicon.ico" type="image/x-icon">
-    <!-- add custome style -->
-    <link rel="stylesheet" href="styles/main.css"/>
+    
+    <!-- aos library css file -->
+    <link rel="stylesheet" href="styles/aos.css"/>
+
     <!-- awesome icon -->
     <link rel="stylesheet" href="styles/all.css"/>
+
+    <!-- add custome style -->
+    <link rel="stylesheet" href="styles/main.css"/>
 </head>
 <body>
     <!-- loader -->
@@ -36,26 +41,26 @@
 
         <!-- hero section -->
         <div class="hero" id="hero">
-            <ul class="header_social d-none d-lg-block">
+            <ul class="header_social d-none d-lg-block" data-aos="fade-left" data-aos-delay="3000">
                 <li><a href="https://github.com/ne-ghaznavi" target="_blank"><i class="fab fa-github"></i></a></li>
                 <li><a href="https://www.instagram.com/ne.ghaznavi/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/nemat-ghaznavi-551331203" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 <li><a href="https://wa.me/989021602024" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
             </ul>
 
-            <div class="bio">
+            <div class="bio" data-aos="fade-up" data-aos-delay="3000">
                 <h1>سلام، من نعمتم</h1>
                 <h2>برنامه نویس و توسعه دهنده وب سایت</h2>
                 <h3>Front-End Web Developer</h3>
                 <a href="#" class="resume">دانلود رزومه</a>
             </div>
             
-            <img src="images/me.png">
+            <img src="images/me.png" data-aos="fade-right" data-aos-delay="3000">
         </div>
         <!-- /end hero section -->
 
         <!-- skill section -->
-        <div class="skill" id="skill">
+        <div class="skill" id="skill" data-aos="fade-up" data-aos-delay="500">
             <img src="images/me1.png">
             <div class="list_skill">
                 <h1>مهارت ها</h1>
@@ -131,7 +136,7 @@
         <!-- /skill section -->
 
         <!-- portfolio section -->
-        <div class="portfolio" id="portfolio">
+        <div class="portfolio" id="portfolio"  data-aos="fade-up" data-aos-delay="500">
             <h1>نمونه کارها</h1>
             <div class="portfolio_list">
                 <div class="portfolio_item">
@@ -206,7 +211,16 @@
         <!-- /footer section -->
     </div>
 
+
+    <!-- aos js file -->
+    <script src="js/aos.js"></script>
+
     <!-- add scripts -->
     <script src="js/main.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
