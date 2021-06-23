@@ -106,8 +106,8 @@ body{
 .brand{
     text-transform: capitalize;
     font-size: 1.3rem;
-    font-weight: 500;
-    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: DancingScript;
 }
 
 .brand span{

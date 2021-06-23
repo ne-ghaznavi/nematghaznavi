@@ -2,3 +2,8 @@
     font-family: vazir;
     src: url(../fonts/Vazir-Regular.ttf);
 }
+
+@font-face {
+    font-family: DancingScript;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
