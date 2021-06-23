@@ -78,6 +78,11 @@ body{
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+.menu_toggler{
+    display: none;
+    z-index: 2;
+}
+
 .navigation a{
     color: #F9F9F9;
 }
@@ -108,6 +113,7 @@ body{
     font-size: 1.3rem;
     font-weight: 600;
     font-family: DancingScript;
+    z-index: 2;
 }
 
 .brand span{
@@ -385,13 +391,111 @@ body{
     margin: 25px;
 }
 
+.footer h3{
+    text-align: center;
+}
+
 .footer h3 span{
     color: crimson;
     border-bottom: 1px solid #F9F9F9;
 }
 /* end footer section */
-/* keyframes */
 
+
+/* start media-query */
+@media screen and (max-width: 850px) {
+    .menu_toggler{
+        display: inline-block;
+        font-size: 26px;
+    }
+
+    .menu-list{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #F9F9F9;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        visibility: hidden;
+    }
+
+    .menu-item{
+        margin: .8rem;
+    }
+
+    .menu_list_toggle{
+        visibility: visible;
+    }
+
+    .menu-item a{
+        transition: 0s;
+    }
+
+     .menu-item a:hover {
+    }
+
+    /* hero section */
+    .hero{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header_social{
+        flex-direction: row;
+        width: fit-content;
+        box-shadow: none;
+        margin: 0;
+    }
+
+    .header_social a i{
+        font-size: 40px;
+        margin: 0 10px;
+    }
+
+    .bio{
+        margin: 0 auto;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    .bio h1{
+        font-size: 40px;
+    }
+    
+    .bio h2{
+        font-size: 30px;
+    }
+    
+    .bio h3{
+        font-size: 25px;
+    }
+    
+    .skill{
+        flex-direction: column;
+        padding: 25px;
+    }
+    
+    .skill img{
+        display: none;
+    }
+
+    .list_skill{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+        color: #293651;
+    }
+    
+}
+/* end media-query */
+
+
+/* start keyframes */
 @keyframes loader {
     0%{
         transform: scale(0);
@@ -412,3 +516,4 @@ body{
         visibility: hidden;
     }
 }
+/* end keyframes */

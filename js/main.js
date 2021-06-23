@@ -1,8 +1,12 @@
 // select element
 const nav = document.querySelector('.navigation');
+const menu_toggler = document.querySelector('.menu_toggler');
+const menu_list = document.querySelector('.menu-list');
 
 // add event
-
+menu_toggler.addEventListener('click', () => {
+    menu_list.classList.toggle('menu_list_toggle');
+});
 
 window.onscroll = function() {
     let top = window.scrollY;
